@@ -232,7 +232,6 @@
 .fZqkIO{--LayoutContainerGutter:0.75rem}
 .iiWdGh{--inlineMargin:auto}
 .gfwYfV{--_lcbgc:var(--LayoutContainerBackgroundColor, rgba(0,0,0,0))}
-.kbCXHY{display:grid}
 .cRrrqM{grid-template-columns:[bleed-start] var(--inlineMargin) [gutter-start] var(--LayoutContainerGutter) [main-start] var(--contentWidth) [main-end] var(--LayoutContainerGutter) [gutter-end] var(--inlineMargin) [bleed-end]}
 .gJhpvu{row-gap:var(--childSpacingDefault, 2rem)}
 .kdZnOS{height:10rem}
@@ -332,12 +331,10 @@
 .ignlgT{border-end-start-radius:0}
 .iIbjtj{border-end-end-radius:0}
 .clobCc{max-width:25rem}
-.cRUUAa{width:100%}
 .bMPiZO{margin-inline-start:auto}
 .leHlzj{--lbl-c:rgb(var(--c-neutral900))}
 .kEFtPS{column-gap:1rem}
 .eSylHt{row-gap:0.75rem}
-.iMkoWi{flex-direction:column}
 .dugTDd{flex-direction:row}
 .kflLcy{--lbl-c:rgb(var(--c-secondary700))}
 .lleaHT{color:var(--lbl-c)}
@@ -346,7 +343,6 @@
 .dvkVMF{color:rgb(var(--c-neutral900))}
 .foGVKH{align-items:center}
 .haEjPJ{column-gap:0.5rem}
-.gSBWlu{display:flex}
 .cwHrA_D{height:1.75rem}
 .hVMrBs{justify-content:space-around}
 .cCWInN{min-width:5rem}
@@ -359,9 +355,7 @@
 .hcfdvM{appearance:textfield}
 .iGDTOy{flex-grow:1}
 .bLvqAx{font-variant-numeric:tabular-nums}
-.iLdtFu{font-weight:700}
 .jXnloJ{min-width:1rem}
-.kooHYa{text-align:center}
 .iKjpVA{font-size:var(--fz-0)}
 .cVaJzg{line-height:var(--lh-0)}
 .feabrv::-webkit-outer-spin-button{display:none}
@@ -374,6 +368,20 @@
 .lksDzB{width:0px}
 .UXrzu{opacity:0}
 .bEvNbr{position:absolute}
+.bqGWkq{justify-items:center}
+.hzxsSg{color:rgb(var(--c-footerColor))}
+.kbCXHY{display:grid}
+.kooHYa{text-align:center}
+.cRUUAa{width:100%}
+.fKBHyP{font-size:var(--fz-6)}
+.gDfjyV{line-height:var(--lh-6)}
+.iLdtFu{font-weight:700}
+.eJrOth{align-content:center}
+.gSBWlu{display:flex}
+.iMkoWi{flex-direction:column}
+.BQbTc{justify-self:center}
+.bQozpC{max-width:35rem}
+.iArmrS{font-weight:650}
 .dzEaaE{background-color:#fff}
 .fAbKiy{background-color:#191919}
 .cUPohL{flex-basis:10rem}
@@ -398,7 +406,6 @@
 .fOSdwT{padding-top:calc(5rem - 3px)}
 .dOxIOe{padding-top:5rem}
 .ezeWHd{padding-bottom:5rem}
-.EKhXX{margin-top:1.25rem}
 .bKjKUN{padding-top:0.75rem}
 .eayRfw{padding-bottom:0.75rem}
 .jTjNVR{margin-top:0}
@@ -493,7 +500,6 @@
 .eNjoUo{background-color:var(--clr)}
 .diErbW{transition-property:background-color}
 .jMnTdq{transition-duration:inherit}
-.cyerGB{margin-top:0.5rem}
 .dJnzRg{border-top-left-radius:4px}
 .gALPBo{border-top-right-radius:4px}
 .hAAOrm{border-bottom-right-radius:4px}
@@ -585,6 +591,11 @@
 .jOeduE{padding-bottom:0.25rem}
 .iDuqPI{padding-left:1rem}
 .kBEdbU{background-color:rgb(var(--c-neutral800))}
+.hUMPzB{background-color:rgb(var(--c-footerBg))}
+.jENALy{padding-bottom:3rem}
+.eGElBa{padding-top:2.5rem}
+.cyerGB{margin-top:0.5rem}
+.EKhXX{margin-top:1.25rem}
 .hJnbij{border-top-color:inherit}
 .inkqsI{border-right-color:inherit}
 .iUJTlr{border-bottom-color:inherit}
@@ -697,6 +708,23 @@
 @media all and (min-width:80em){.fKdRdV{line-height:var(--lh--1)}}
 @media all and (min-width:80em){.fbDSck{font-size:var(--fz--3)}}
 @media all and (min-width:80em){.cIlhEA{line-height:var(--lh--3)}}
+@media all and (min-width:80em){.gZgzRq{font-size:var(--fz-7)}}
+@media all and (min-width:80em){.foezAo{line-height:var(--lh-7)}}
+@media all and (min-width:80em){.RoPgo{--links-gap:3.75rem}}
+@media all and (min-width:80em){.fPXowX{column-gap:var(--links-gap)}}
+@media all and (min-width:80em){.gmIukq{flex-direction:row}}
+@media all and (min-width:80em){.ftXpVj{margin-top:1.5rem}}
+@media all and (min-width:80em){.kdVepE{font-weight:300}}
+@media all and (min-width:80em){.BRxzV{position:relative}}
+@media all and (min-width:80em){.eJHIDQ::before{content:"●"}}
+@media all and (min-width:80em){.hqwlrs::before{cursor:text}}
+@media all and (min-width:80em){.hobgvB::before{inset-inline-start:calc(var(--links-gap) / 2 * -1)}}
+@media all and (min-width:80em){.gfQwFN::before{pointer-events:none}}
+@media all and (min-width:80em){.fYForA::before{position:absolute}}
+@media all and (min-width:80em){.cGVsKr::before{top:50%}}
+@media all and (min-width:80em){.cuvbzA::before{transform:translateY(-50%) translateX(50%)}}
+@media all and (min-width:80em){.ianAKZ::before{font-size:var(--fz--2)}}
+@media all and (min-width:80em){.cJxGRK::before{line-height:var(--lh--2)}}
 @media all and (min-width:80em) and (max-width:101.9375em){.cEKNZk{font-size:var(--fz--2)}}
 @media all and (min-width:80em) and (max-width:101.9375em){.gMAJcp{line-height:var(--lh--2)}}
 @media all and (min-width:80em) and (max-width:101.9375em){.kGliJO{font-size:var(--fz-2)}}
@@ -704,6 +732,8 @@
 @media all and (min-width:80em) and (max-width:101.9375em){.EozEF{--contentWidth:minmax(0, 76.5rem)}}
 @media all and (min-width:80em) and (max-width:101.9375em){.dOIBSz{--LayoutContainerGutter:1.75rem}}
 @media all and (min-width:80em) and (max-width:101.9375em){.lmjPOP{row-gap:var(--childSpacingXl, 3.5rem)}}
+@media all and (min-width:80em) and (max-width:101.9375em){.hJgbZA{font-size:var(--fz-1)}}
+@media all and (min-width:80em) and (max-width:101.9375em){.cLPvYH{line-height:var(--lh-1)}}
 @media all and (min-width:102em){.kNnzPI{font-size:var(--fz-1)}}
 @media all and (min-width:102em){.dkNqmP{line-height:var(--lh-1)}}
 @media all and (min-width:102em){.gIxZrC{height:1.5rem}}
@@ -721,12 +751,16 @@
 @media all and (min-width:102em){.bnVOLt{line-height:var(--lh--4)}}
 @media all and (min-width:102em){.jbDMjY{font-size:var(--fz--2)}}
 @media all and (min-width:102em){.kzePcG{line-height:var(--lh--2)}}
+@media all and (min-width:102em){.krpnci{font-size:var(--fz-0)}}
+@media all and (min-width:102em){.dPBKZn{line-height:var(--lh-0)}}
 @media all and (max-width:79.9375em){.gqFYrZ{padding-left:0.75rem}}
 @media all and (max-width:79.9375em){.bYbkny{padding-right:0.75rem}}
 @media all and (max-width:79.9375em){.kBrXMW{padding-bottom:calc(0.125rem - 1px)}}
 @media all and (max-width:79.9375em){.dXDkIT{padding-top:calc(0.125rem - 1px)}}
 @media all and (max-width:79.9375em){.lfoXAV{font-size:var(--fz--2)}}
 @media all and (max-width:79.9375em){.gXdyGv{line-height:1rem}}
+@media all and (max-width:79.9375em){.bkXpXX{display:none}}
+@media all and (max-width:79.9375em){.yUVak{margin-top:0.25rem}}
 .bbwlVK:focus-within{--bgc:rgb(var(--c-primary400))}
 .dUxYfZ:focus-within{--outline-wdth:2px}
 .jHGNYW:focus-within{--outline-offst:3px}
