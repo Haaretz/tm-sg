@@ -1,1 +1,13 @@
-{"brightspot":"https://www.haaretz.co.il", "gqlServer":"https://graphql-server.haaretz.co.il", "gqlServerCluster":"http://graphql-server.haaretz.co.il", "bIServer":"https://services.haaretz.co.il/ds", "env":"prod", "msConfirmation":"https://services.haaretz.co.il/ms-confirmation", "msPurchaseUrl":"https://ms-purchase.haaretz.co.il", "cookieGenerator":"http://cookie-generator.ms-app", "appType":"promotions-page", "GA4Key":"G-V6JW03P6HP", "UAKey":"UA-589309-3"}
+{
+  "brightspot": "https://www.haaretz.co.il",
+  "gqlServer": "https://graphql-server.haaretz.co.il",
+  "gqlServerCluster": "http://graphql-server.haaretz.co.il",
+  "bIServer": "https://services.haaretz.co.il/ds",
+  "env": "prod",
+  "msConfirmation": "https://services.haaretz.co.il/ms-confirmation",
+  "msPurchaseUrl": "https://ms-purchase.haaretz.co.il",
+  "cookieGenerator": "http://cookie-generator.ms-app",
+  "appType": "promotions-page",
+  "GA4Key": "G-V6JW03P6HP",
+  "UAKey": "UA-589309-3"
+}

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["global-externals:@storybook/addons", "../../../../../config/l-storybook-config/defaultManagerConfig.js", "../../../.storybook/manager.js"],
+  "sourcesContent": ["export default __STORYBOOKADDONS__;\nconst { addons, types, mockChannel } = __STORYBOOKADDONS__;\nexport { addons, types, mockChannel };", "const defaultManagerConfig = {\n  toolbar: {\n    zoom: { hidden: true },\n  },\n};\n\nexport default defaultManagerConfig;\n", "/* eslint-disable import/no-extraneous-dependencies */\nimport { addons } from '@storybook/addons';\nimport defaultManagerConfig from '@haaretz/l-storybook-config/defaultManagerConfig';\n/* eslint-enable import/no-extraneous-dependencies */\n\naddons.setConfig({\n  ...defaultManagerConfig,\n});\n"],
+  "mappings": ";AAAA,IAAOA,EAAQ,oBACT,CAAE,OAAAC,EAAQ,MAAAC,EAAO,YAAAC,CAAY,EAAI,oBCDvC,IAAMC,EAAuB,CAC3B,QAAS,CACP,KAAM,CAAE,OAAQ,EAAK,CACvB,CACF,EAEOC,EAAQD,ECDfE,EAAO,UAAU,CACf,GAAGC,CACL,CAAC",
+  "names": ["addons_default", "addons", "types", "mockChannel", "defaultManagerConfig", "defaultManagerConfig_default", "addons", "defaultManagerConfig_default"]
+}
