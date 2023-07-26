@@ -7,6 +7,7 @@
   "msConfirmation": "https://services.haaretz.co.il/ms-confirmation",
   "msPurchaseUrl": "https://ms-purchase.haaretz.co.il",
   "cookieGenerator": "http://cookie-generator.ms-app",
+  "personalization": "https://services.haaretz.co.il/personalization",
   "appType": "site",
   "GA4Key": "G-V6JW03P6HP",
   "UAKey": "UA-589309-3"
